@@ -50,6 +50,6 @@ for (let index = 0; index < productsIUDigital.length; index++) {
     </div>
   </div>
   ` + fetch;
-  const imagenProducto = document.getElementById(`card${index}`)
-  imagenProducto.style.backgroundImage = `url(${productsIUDigital[index].image})`
+  const imagenProducto = document.getElementById(`card${index}`);
+  imagenProducto.style.backgroundImage = `url(${productsIUDigital[index].image})`;
 }

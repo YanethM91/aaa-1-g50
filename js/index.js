@@ -86,4 +86,4 @@ const recorridoMap2 = productsIUDigital.map(function (index) {
     </html>`;
 });
 
-document.getElementById("Productos").innerHTML=recorridoMap2
+document.getElementById("Productos").innerHTML = recorridoMap2;
