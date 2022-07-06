@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./css/style3.css" />
+  </head>
+  <body>
+
+    <div class="bg"></div>
+    <nav class="navigation">
+      <ul>
+        <li>Productos v1</li>
+        <li>Productos v2</li>
+      </ul>
+    </nav>
+    <!-- partial:index.partial.html -->
+    <div class="login-box">
+      <h4>Registro producto IU Store</h4>
+      <form>
+        <div class="user-box">
+          <input type="number" id="idProd" required="" min="0" />
+          <label>Id</label>
+        </div>
+
+        <div class="user-box">
+          <input type="text" id="nameProd" required="" />
+          <label>Producto</label>
+        </div>
+
+        <div class="user-box">
+          <input type="text" id="description" required="" />
+          <label>Descripción</label>
+        </div>
+
+        <div class="user-box">
+          <input type="file" id="productImage" required="" />
+        </div>
+
+        <a href="#" id="btnAddProduct">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          Añadir
+        </a>
+      </form>
+    </div>
+
+    <div class="listaProductos"></div>
+    <!-- partial -->
+  </body>
+  <script src="./js/new_product.js"></script>
+</html>
